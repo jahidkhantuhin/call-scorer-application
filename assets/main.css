@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Futura Bk BT';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/futura/FutuBk.ttf') format('truetype');
+}
+
+.v-application {
+  background: #f0eff4 !important;
+}
+
+.v-toast .v-toast__text,
+swal2-popup,
+.swal2-container,
+.swal2-container *,
+.swal2-toast,
+.swal2-noanimation {
+  font-family: 'Roboto';
+}
+
+.swal2-title {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.swal2-content {
+  font-weight: 400;
+  font-size: 15px;
+}

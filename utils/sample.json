@@ -1,0 +1,675 @@
+{
+  "_created": "2021-02-16T03:31:02.050Z",
+  "call_recording_duration": "261.746939",
+  "dna_classification": { "classification": "Conversation", "timestamp": "2021-02-16T03:39:38.444Z", "version": "6" },
+  "dna_features": {
+    "agent": {
+      "first_half_speech_ratio": "0.24312",
+      "first_speech_time": "0.76825",
+      "ring_count": "4",
+      "silence_duration": "178.27664",
+      "silence_ratio": "0.6811",
+      "speech_duration": "75.49842",
+      "speech_duration_after_ring": "73.07393",
+      "speech_duration_before_ring": "2.42449",
+      "speech_ratio": "0.28844",
+      "spoke_first": true
+    },
+    "caller": {
+      "first_half_speech_ratio": "0.39567",
+      "first_speech_time": "1.03764",
+      "ring_count": "0",
+      "silence_duration": "175.6408",
+      "silence_ratio": "0.67103",
+      "speech_duration": "86.16419",
+      "speech_ratio": "0.32919",
+      "spoke_first": false
+    },
+    "general": {
+      "analyzed_call_duration": "261.74694",
+      "conversation_switch_count": "55",
+      "estimated_hold_time_duration": "0",
+      "overlapping_silence_count": "66",
+      "overlapping_silence_duration": "102.59685",
+      "overlapping_speech_count": "11",
+      "overlapping_speech_duration": "7.51297"
+    },
+    "version": "4"
+  },
+  "dna_json": {
+    "agent": [
+      { "activityType": "speech", "duration": "2.42449", "start": "0.76825" },
+      { "activityType": "tone", "duration": "1.97551", "start": "3.75147" },
+      { "activityType": "tone", "duration": "2.00544", "start": "9.73787" },
+      { "activityType": "tone", "duration": "2.00544", "start": "15.73424" },
+      { "activityType": "tone", "duration": "1.98549", "start": "21.74059" },
+      { "activityType": "speech", "duration": "2.18503", "start": "27.08844" },
+      { "activityType": "speech", "duration": "0.59864", "start": "33.16463" },
+      { "activityType": "speech", "duration": "0.41905", "start": "40.97687" },
+      { "activityType": "speech", "duration": "2.33469", "start": "43.06213" },
+      { "activityType": "speech", "duration": "0.64853", "start": "56.32199" },
+      { "activityType": "speech", "duration": "7.79229", "start": "57.48934" },
+      { "activityType": "speech", "duration": "4.36009", "start": "73.98186" },
+      { "activityType": "speech", "duration": "3.2127", "start": "85.83492" },
+      { "activityType": "speech", "duration": "1.85578", "start": "104.86168" },
+      { "activityType": "speech", "duration": "0.81814", "start": "110.68844" },
+      { "activityType": "speech", "duration": "3.15283", "start": "119.49841" },
+      { "activityType": "speech", "duration": "2.01541", "start": "126.70204" },
+      { "activityType": "speech", "duration": "0.75829", "start": "133.23718" },
+      { "activityType": "speech", "duration": "3.10295", "start": "138.09615" },
+      { "activityType": "speech", "duration": "1.75601", "start": "144.04263" },
+      { "activityType": "speech", "duration": "1.5864", "start": "156.04535" },
+      { "activityType": "speech", "duration": "0.77823", "start": "167.12018" },
+      { "activityType": "speech", "duration": "1.51656", "start": "185.67801" },
+      { "activityType": "speech", "duration": "1.67619", "start": "190.56689" },
+      { "activityType": "speech", "duration": "4.40997", "start": "197.00227" },
+      { "activityType": "speech", "duration": "1.91565", "start": "207.90749" },
+      { "activityType": "speech", "duration": "4.60951", "start": "212.91611" },
+      { "activityType": "speech", "duration": "1.37688", "start": "221.94557" },
+      { "activityType": "speech", "duration": "7.06395", "start": "223.79138" },
+      { "activityType": "speech", "duration": "1.28706", "start": "231.34422" },
+      { "activityType": "speech", "duration": "2.50432", "start": "235.4848" },
+      { "activityType": "speech", "duration": "3.34241", "start": "238.87709" },
+      { "activityType": "speech", "duration": "1.2372", "start": "242.84807" },
+      { "activityType": "speech", "duration": "0.4789", "start": "247.41769" },
+      { "activityType": "speech", "duration": "3.82132", "start": "250.72018" },
+      { "activityType": "speech", "duration": "0.45895", "start": "257.55466" }
+    ],
+    "caller": [
+      { "activityType": "speech", "duration": "1.06757", "start": "1.03764" },
+      { "activityType": "speech", "duration": "2.34467", "start": "2.67392" },
+      { "activityType": "speech", "duration": "0.72834", "start": "5.85669" },
+      { "activityType": "speech", "duration": "0.92789", "start": "8.40091" },
+      { "activityType": "speech", "duration": "0.42902", "start": "9.86757" },
+      { "activityType": "speech", "duration": "3.55193", "start": "13.39955" },
+      { "activityType": "speech", "duration": "1.02767", "start": "30.78004" },
+      { "activityType": "speech", "duration": "3.24263", "start": "34.47166" },
+      { "activityType": "speech", "duration": "1.56644", "start": "38.31292" },
+      { "activityType": "speech", "duration": "1.53651", "start": "40.31837" },
+      { "activityType": "speech", "duration": "1.21723", "start": "42.64309" },
+      { "activityType": "speech", "duration": "4.77914", "start": "46.56417" },
+      { "activityType": "speech", "duration": "3.36236", "start": "51.79229" },
+      { "activityType": "speech", "duration": "1.88572", "start": "55.7034" },
+      { "activityType": "speech", "duration": "4.78912", "start": "66.2195" },
+      { "activityType": "speech", "duration": "4.99863", "start": "79.70885" },
+      { "activityType": "speech", "duration": "1.65623", "start": "92.27029" },
+      { "activityType": "speech", "duration": "1.01768", "start": "95.85216" },
+      { "activityType": "speech", "duration": "0.91792", "start": "97.84762" },
+      { "activityType": "speech", "duration": "0.74831", "start": "100.76099" },
+      { "activityType": "speech", "duration": "0.99773", "start": "102.31746" },
+      { "activityType": "speech", "duration": "0.92789", "start": "105.06123" },
+      { "activityType": "speech", "duration": "1.41678", "start": "107.58549" },
+      { "activityType": "speech", "duration": "1.21724", "start": "110.29932" },
+      { "activityType": "speech", "duration": "4.32018", "start": "113.42223" },
+      { "activityType": "speech", "duration": "0.77823", "start": "124.35737" },
+      { "activityType": "speech", "duration": "6.35556", "start": "130.5433" },
+      { "activityType": "speech", "duration": "3.57187", "start": "146.35738" },
+      { "activityType": "speech", "duration": "4.43991", "start": "157.73152" },
+      { "activityType": "speech", "duration": "2.70386", "start": "169.05579" },
+      { "activityType": "speech", "duration": "1.0975", "start": "172.75737" },
+      { "activityType": "speech", "duration": "0.94785", "start": "176.57869" },
+      { "activityType": "speech", "duration": "1.79593", "start": "193.61995" },
+      { "activityType": "speech", "duration": "0.86803", "start": "202.53969" },
+      { "activityType": "speech", "duration": "3.08299", "start": "204.39546" },
+      { "activityType": "speech", "duration": "0.49887", "start": "210.32199" },
+      { "activityType": "speech", "duration": "2.69388", "start": "218.75284" },
+      { "activityType": "speech", "duration": "1.00772", "start": "228.12154" },
+      { "activityType": "speech", "duration": "0.8381", "start": "233.35963" },
+      { "activityType": "speech", "duration": "0.47891", "start": "238.84717" },
+      { "activityType": "speech", "duration": "0.58867", "start": "244.92336" },
+      { "activityType": "speech", "duration": "1.29706", "start": "248.61496" },
+      { "activityType": "speech", "duration": "1.34692", "start": "255.29977" },
+      { "activityType": "speech", "duration": "1.0975", "start": "260.70749" }
+    ],
+    "version": "1"
+  },
+  "dna_json_exists": true,
+  "dna_scheduled": true,
+  "dna_wanted": true,
+  "endpoints": [
+    {
+      "feature_data": {
+        "call_settings": {
+          "early_media": false,
+          "redact_recording": false,
+          "reverse_lookup": "targus",
+          "reverse_lookup_enabled": true,
+          "use_call_dna": false
+        },
+        "dropcamel": {
+          "address_lookup_address": "702 NW FORK RD",
+          "address_lookup_city": "STUART",
+          "address_lookup_cost": "$0.00431",
+          "address_lookup_customer_type": "residential",
+          "address_lookup_line_type": "mobile",
+          "address_lookup_name": "AUGUST FOPIANO",
+          "address_lookup_number": "+15616922042",
+          "address_lookup_source": "infutor",
+          "address_lookup_state": "FL",
+          "address_lookup_zip": "34994",
+          "agent_number_bridged": "+15613648700",
+          "agent_sip_id": "fa185aec-5473-48f1-8f94-6b43646fe13d",
+          "answer_offset_ms": "26494",
+          "bridged_duration_ms": "235632",
+          "call_ended_by": "AGENT",
+          "call_processor_host": ["cxcp9.sea1"],
+          "call_recording_start": "2021-02-16T03:30:59.665Z",
+          "call_recording_status": "RECORDED",
+          "call_result": "BRIDGED",
+          "called_number": "+15612353146",
+          "caller_id_name": "AUGUST FOPIANO",
+          "caller_id_number": "+15616922042",
+          "caller_sip_id": "335571941_98547671@206.147.76.5",
+          "dial_results": [
+            {
+              "bridged_number": "+15613648700",
+              "dial_time": "2021-02-16T03:31:03.173Z",
+              "sip_call_id": "fa185aec-5473-48f1-8f94-6b43646fe13d",
+              "success": true
+            }
+          ],
+          "duration_ms": "262126",
+          "end_time": "2021-02-16T03:35:21.325Z",
+          "marchex_call_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a",
+          "passthrough_cdr_values": {
+            "account_id": "Ch4NmlfYCsZ56wBx",
+            "account_name": "Chokshi, Payal - Boynton",
+            "campaign_id": "fwABAVurzdhMdwDX",
+            "campaign_name": "default",
+            "group_id": "Ch4NmlfYCsZ56wBy",
+            "group_name": "default",
+            "mca_call_id": "Cs2WCWArPHNsh4S0",
+            "parent_id": "CA6ph0frwlIJngHl",
+            "parent_source_entity": "account",
+            "parent_source_id": "Ch4NmlfYCsZ56wBx",
+            "parent_source_system": "adtrack",
+            "time_zone": "US/Eastern"
+          },
+          "product": "MCA",
+          "recording_storage_ticket_id": "mca-Cs2WCWArPHNsh4S0",
+          "ring_count_approx": "4",
+          "ring_duration_ms": "22602",
+          "schema_version": "1.3",
+          "spam": {
+            "canary": {
+              "recommendation": "UNKNOWN",
+              "result": {
+                "detail": {
+                  "MCA honeypot/blacklist": {
+                    "expire": "2021-02-16T03:32:59Z",
+                    "reason": "",
+                    "recommendation": "UNKNOWN",
+                    "source": "Adtrack"
+                  },
+                  "Timebucket caller 20 in 1 hour": {
+                    "expire": "2021-02-16T03:30:59Z",
+                    "reason": "",
+                    "recommendation": "UNKNOWN",
+                    "source": "CQDCS"
+                  },
+                  "Timebucket caller 40 in 1 day": {
+                    "expire": "2021-02-16T03:30:59Z",
+                    "reason": "",
+                    "recommendation": "UNKNOWN",
+                    "source": "CQDCS"
+                  },
+                  "Timebucket caller exceptions": {
+                    "expire": "2021-02-16T03:30:59Z",
+                    "reason": "",
+                    "recommendation": "UNKNOWN",
+                    "source": "Canary"
+                  }
+                },
+                "summary": {
+                  "expire": "2021-02-16T03:32:59Z",
+                  "reason": "Timebucket caller 20 in 1 hour, Timebucket caller 40 in 1 day, Timebucket caller exceptions, MCA honeypot/blacklist",
+                  "recommendation": "UNKNOWN"
+                }
+              },
+              "service": "CANARY"
+            },
+            "detect_busy": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+            "detect_fax": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+            "detect_noise": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+            "detect_recording": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" }
+          },
+          "start_time": "2021-02-16T03:30:59.199Z",
+          "status_detail": "honeypot(block) rec afterhrs dial(1) !early_audio stoprec numlookup numfound",
+          "transaction_id": "1",
+          "was_business_hours": false,
+          "x_hop_counter": "0"
+        },
+        "dropcamel_raw": {
+          "address_lookup_result": {
+            "address": "702 NW FORK RD",
+            "city": "STUART",
+            "cost": "$0.00431",
+            "cust_type": "residential",
+            "line_type": "mobile",
+            "name": "AUGUST FOPIANO",
+            "number": "+15616922042",
+            "source": "infutor",
+            "state": "FL",
+            "zip": "34994"
+          },
+          "app_log": [
+            { "action": "start", "app_name": "switchboard", "args": {}, "when": "2021-02-16T03:30:59.333Z" },
+            { "action": "check_canary", "app_name": "mca", "when": "2021-02-16T03:30:59.443Z" },
+            { "action": "caller_metadata", "app_name": "mca", "when": "2021-02-16T03:30:59.463Z" },
+            {
+              "action": "start",
+              "app_name": "mca",
+              "args": {
+                "address_lookup": true,
+                "after_hours_legal_playfile": { "storage_namespace": "playfile-mca-phl", "storage_ticket": "mca-Ch4NmlfYCtl5zgBh" },
+                "business_schedule": [
+                  { "day_end": "17:00:00", "day_start": "09:00:00", "days": ["0"], "never_business": true },
+                  { "day_end": "16:00:00", "day_start": "08:00:00", "days": ["1"] },
+                  { "day_end": "16:00:00", "day_start": "08:00:00", "days": ["2"] },
+                  { "day_end": "17:00:00", "day_start": "09:00:00", "days": ["3"] },
+                  { "day_end": "17:00:00", "day_start": "09:00:00", "days": ["4"] },
+                  { "day_end": "17:00:00", "day_start": "09:00:00", "days": ["5"] },
+                  { "day_end": "17:00:00", "day_start": "09:00:00", "days": ["6"], "never_business": true }
+                ],
+                "call_state": {
+                  "answered": false,
+                  "business_hours": false,
+                  "call_processor_host": "cxcp9.sea1",
+                  "call_started": "1613446259199",
+                  "call_started_monotonic": ["19806500", "379284640"],
+                  "called_number": "+15612353146",
+                  "caller_id_from": "+15616922042",
+                  "caller_name": "",
+                  "caller_name_from": "",
+                  "caller_number": "+15616922042",
+                  "caller_number_npa": "561",
+                  "caller_number_npanxx": "561692",
+                  "caller_number_nxx": "692",
+                  "caller_presence": "allowed_not_screened",
+                  "canonical_sip_call_id": "335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+                  "complete_called_number": "+15612353146",
+                  "day_of_week": "1",
+                  "dc_call_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a",
+                  "fs_call_start": "1613446259156818",
+                  "inbound_carrier": "peer-iquent-Orig-119",
+                  "inbound_gateway_ip": "10.206.0.27",
+                  "inbound_sip_call_id": "335571941_98547671@206.147.76.5",
+                  "inbound_sip_headers": {
+                    "P-Acme-VSA": "205:335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+                    "P-Asserted-Identity": "<sip:+15616922042@206.147.76.5:5060>",
+                    "X-Direction": "orig",
+                    "X-MCR": "335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+                    "X-Orig-Carrier": "peer-iquent-Orig-119",
+                    "X-To-Product": "mca",
+                    "call_id": "335571941_98547671@206.147.76.5",
+                    "from_host": "10.206.0.27",
+                    "from_port": "5060",
+                    "from_tag": "gK003f017f",
+                    "from_user": "+15616922042",
+                    "to_host": "10.205.151.9",
+                    "to_port": "5060"
+                  },
+                  "kafka_message_key": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a",
+                  "localtime": "2230",
+                  "marchex_caller_id": "+15616922042",
+                  "source_ip": "10.206.0.27",
+                  "uuid": "c5b4b05e-c533-4e76-b305-ee73e1a11c62"
+                },
+                "caller_telco_data": {
+                  "ccode": "1",
+                  "country": "US",
+                  "descr": "FL",
+                  "freep": "0",
+                  "h": "666",
+                  "lata": "460",
+                  "npa": "561",
+                  "npa_id": "QrOXy0RJP1hTOgEZ",
+                  "npanxx_id": "QrOXy0RNCqBlene3",
+                  "nxx": "692",
+                  "nxxtype": "65",
+                  "ocn": "6502",
+                  "pl_id": "CA6qKEv7C80hAAqp",
+                  "rc_id": "QrOX7UUlRaApF2la",
+                  "rc_name": "BELLEGLADE",
+                  "sort_key": "0",
+                  "source": "telc",
+                  "state": "FL",
+                  "switch": "JPTRFLGNCM1",
+                  "usage": "AS",
+                  "v": "8150"
+                },
+                "cdr": {
+                  "account_id": "Ch4NmlfYCsZ56wBx",
+                  "account_name": "Chokshi, Payal - Boynton",
+                  "campaign_id": "fwABAVurzdhMdwDX",
+                  "campaign_name": "default",
+                  "group_id": "Ch4NmlfYCsZ56wBy",
+                  "group_name": "default",
+                  "parent_id": "CA6ph0frwlIJngHl",
+                  "parent_source_entity": "account",
+                  "parent_source_id": "Ch4NmlfYCsZ56wBx",
+                  "parent_source_system": "adtrack",
+                  "time_zone": "US/Eastern"
+                },
+                "cnam_lookup": false,
+                "early_media": false,
+                "forwards": [{ "number": "+15613648700", "step": "1" }],
+                "global_forward_timeout_sec": "100",
+                "is_business_hours": false,
+                "legal_playfile": { "storage_namespace": "playfile-mca-phl", "storage_ticket": "mca-Ch4NmlfYCtl5zgBh" },
+                "mdh_migration_ratio": "0.15",
+                "no_forwards_playfile": "/site/dropcamel/version/2021_02_08_18_25_59/playfiles/nobody_available.gsm",
+                "record_call": true,
+                "redact_recording": false,
+                "reverse_lookup": "targus",
+                "reverse_lookup_enabled": true,
+                "script_name": "mca",
+                "spam_actions": {
+                  "TFP-Busy": "TERMINATE",
+                  "TFP-Dalek": "TERMINATE",
+                  "TFP-Fax": "TERMINATE",
+                  "TFP-Recording": "TERMINATE",
+                  "TFP-Silence": "DYNAMIC_IVR"
+                },
+                "spam_tokens": {
+                  "detect_busy": ["TFP-Busy"],
+                  "detect_fax": ["TFP-Fax"],
+                  "detect_noise": ["TFP-Dalek"],
+                  "detect_recording": ["TFP-Recording"],
+                  "detect_silence": ["TFP-Silence"]
+                },
+                "time_zone": "US/Eastern",
+                "use_call_dna": false,
+                "use_honeypot": true,
+                "use_mdh": false,
+                "whisper_file": { "storage_namespace": "playfile-mca-phl", "storage_ticket": "mca-Ch4NmlfYCuZ5ygDC" }
+              },
+              "when": "2021-02-16T03:30:59.476Z"
+            },
+            {
+              "action": "start",
+              "app_name": "trufflehound",
+              "args": {
+                "caller_number": "+15616922042",
+                "dc_call_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a",
+                "features": { "detect_busy": "20000", "detect_fax": "3000", "detect_noise": "10000", "detect_recording": "10000" },
+                "product": "dropcamel",
+                "spam_actions": {
+                  "TFP-Busy": "TERMINATE",
+                  "TFP-Dalek": "TERMINATE",
+                  "TFP-Fax": "TERMINATE",
+                  "TFP-Recording": "TERMINATE",
+                  "TFP-Silence": "DYNAMIC_IVR"
+                },
+                "spam_tokens": {
+                  "detect_busy": ["TFP-Busy"],
+                  "detect_fax": ["TFP-Fax"],
+                  "detect_noise": ["TFP-Dalek"],
+                  "detect_recording": ["TFP-Recording"],
+                  "detect_silence": ["TFP-Silence"]
+                }
+              },
+              "when": "2021-02-16T03:30:59.480Z"
+            },
+            {
+              "action": "observe",
+              "app_name": "trufflehound",
+              "leg": "aleg",
+              "phone": {
+                "caller_id": "+15616922042",
+                "dial_peer": "trufflehound",
+                "extra_headers": {
+                  "X-Args": "P=dropcamel ID=ace6e19e-8c2e-57a2-9228-d93ea52dc96a leg=caller S=1613446259156818 F=B(20000)F(3000)N(10000)P(10000)"
+                },
+                "max_length_ms": "25000",
+                "number": "+11225559999",
+                "spam_actions": {
+                  "TFP-Busy": "TERMINATE",
+                  "TFP-Dalek": "TERMINATE",
+                  "TFP-Fax": "TERMINATE",
+                  "TFP-Recording": "TERMINATE",
+                  "TFP-Silence": "DYNAMIC_IVR"
+                },
+                "spam_tokens": {
+                  "detect_busy": ["TFP-Busy"],
+                  "detect_fax": ["TFP-Fax"],
+                  "detect_noise": ["TFP-Dalek"],
+                  "detect_recording": ["TFP-Recording"],
+                  "detect_silence": ["TFP-Silence"]
+                }
+              },
+              "when": "2021-02-16T03:30:59.483Z"
+            },
+            {
+              "action": "observe",
+              "app_name": "eventsocket",
+              "originate": {
+                "eavesdrop_bridge_aleg": "true",
+                "media_audio_mode": "sendonly",
+                "originate_timeout": "10000",
+                "origination_audio_mode": "sendonly",
+                "origination_caller_id_number": "+15616922042",
+                "origination_uuid": "7f905c9d-62ad-4d89-91c7-d9c5c00133fd",
+                "rtp_timeout_sec": "0",
+                "sip_h_X-Args": "P=dropcamel ID=ace6e19e-8c2e-57a2-9228-d93ea52dc96a leg=caller S=1613446259156818 F=B(20000)F(3000)N(10000)P(10000)",
+                "sip_h_X-MCR": "335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+                "sip_invite_call_id": "7f905c9d-62ad-4d89-91c7-d9c5c00133fd"
+              },
+              "when": "2021-02-16T03:30:59.487Z"
+            },
+            { "action": "finish", "app_name": "trufflehound", "when": "2021-02-16T03:30:59.553Z" },
+            { "action": "answer", "app_name": "mca", "when": "2021-02-16T03:30:59.555Z" },
+            { "action": "start_recording", "app_name": "mca", "when": "2021-02-16T03:30:59.605Z" },
+            {
+              "action": "play",
+              "app_name": "mca",
+              "file": "/site/storage-api-cache/f/a/1/fa162410e5c332cfd340b67cd3ac5e77.gsm",
+              "when": "2021-02-16T03:30:59.673Z"
+            },
+            {
+              "action": "sns_notify",
+              "app_name": "mca",
+              "topic_arn": "arn:aws:sns:us-east-1:111781987845:cx-callstart-prod",
+              "when": "2021-02-16T03:31:01.811Z"
+            },
+            {
+              "action": "dial",
+              "app_name": "mca",
+              "dial_params": {
+                "early_media": false,
+                "global_timeout_sec": "100",
+                "ringback_country_code": "us",
+                "whisper_file": "/site/storage-api-cache/7/4/c/74cbd31c7854ed3086521577d84be4bb.gsm"
+              },
+              "phones": [{ "number": "+15613648700", "step": "1" }],
+              "when": "2021-02-16T03:31:03.085Z"
+            },
+            {
+              "action": "dial",
+              "app_name": "eventsocket",
+              "originate": {
+                "continue_on_fail": "true",
+                "originate_timeout": "300",
+                "origination_caller_id_name": "",
+                "origination_caller_id_number": "+15616922042",
+                "origination_uuid": "fa185aec-5473-48f1-8f94-6b43646fe13d",
+                "park_after_bridge": "true",
+                "park_after_early_bridge": "true",
+                "progress_timeout": "20",
+                "return_ring_ready": "true",
+                "rtp_digit_delay": "250",
+                "sip_cid_type": "none",
+                "sip_h_P-Asserted-Identity": "<sip:+15616922042@10.205.150.9>",
+                "sip_h_X-Hop": "1",
+                "sip_h_X-MCR": "335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+                "sip_h_X-Orig-Call-ID": "335571941_98547671@206.147.76.5",
+                "sip_invite_call_id": "fa185aec-5473-48f1-8f94-6b43646fe13d"
+              },
+              "when": "2021-02-16T03:31:03.175Z"
+            },
+            {
+              "app_name": "mca",
+              "dial_results": [
+                {
+                  "bridged_number": "+15613648700",
+                  "dial_time": "2021-02-16T03:31:03.173Z",
+                  "sip_call_id": "fa185aec-5473-48f1-8f94-6b43646fe13d",
+                  "success": true
+                }
+              ],
+              "when": "2021-02-16T03:31:25.696Z"
+            },
+            { "action": "bridge_end", "app_name": "mca", "when": "2021-02-16T03:35:21.328Z" },
+            { "action": "call_end", "app_name": "switchboard", "when": "2021-02-16T03:35:21.376Z" },
+            { "action": "call_end", "app_name": "mca", "when": "2021-02-16T03:35:21.378Z" },
+            { "action": "stop_recording", "app_name": "mca", "when": "2021-02-16T03:35:21.397Z" },
+            {
+              "action": "upload_recording",
+              "app": "mca",
+              "app_name": "mca",
+              "file": "/site/dropcamel/recordings/ace6e19e-8c2e-57a2-9228-d93ea52dc96a.wav",
+              "namespace": "recording-mca-phl",
+              "redaction_enabled": false,
+              "unique_id": "Cs2WCWArPHNsh4S0",
+              "when": "2021-02-16T03:35:21.457Z"
+            },
+            {
+              "action": "address_lookup",
+              "app_name": "mca",
+              "phone": "+15616922042",
+              "product": "mca",
+              "sip_call_id": "335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+              "when": "2021-02-16T03:35:21.470Z"
+            },
+            { "action": "write_address_cdr", "app_name": "mca", "when": "2021-02-16T03:35:22.021Z" },
+            { "action": "write_cdr", "app_name": "mca", "file": "/site/dropcamel/logs/mca_cdr.log", "when": "2021-02-16T03:35:22.030Z" }
+          ],
+          "call_ended_by": "AGENT",
+          "call_legs_agent_end": "2021-02-16T03:35:21.325Z",
+          "call_legs_agent_number": "+15613648700",
+          "call_legs_agent_sip_call_id": "fa185aec-5473-48f1-8f94-6b43646fe13d",
+          "call_legs_agent_start": "2021-02-16T03:31:25.693Z",
+          "call_legs_caller_carrier": "peer-iquent-Orig-119",
+          "call_legs_caller_id_name": "AUGUST FOPIANO",
+          "call_legs_caller_id_number": "+15616922042",
+          "call_legs_caller_sip_call_id": "335571941_98547671@206.147.76.5",
+          "call_legs_caller_start": "2021-02-16T03:30:59.199Z",
+          "call_legs_caller_x_mcr": "335571941_98547671@206.147.76.5!2021-02-16T033059.052Z",
+          "call_processor_host": "cxcp9.sea1",
+          "call_recording_start": "2021-02-16T03:30:59.665Z",
+          "called_number": "+15612353146",
+          "cookable": "1613446521325",
+          "end_time": "2021-02-16T03:35:21.325Z",
+          "is_bad_call_log": false,
+          "kafka_message_key": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a",
+          "marchex_call_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a",
+          "passthrough_cdr_values": {
+            "account_id": "Ch4NmlfYCsZ56wBx",
+            "account_name": "Chokshi, Payal - Boynton",
+            "campaign_id": "fwABAVurzdhMdwDX",
+            "campaign_name": "default",
+            "group_id": "Ch4NmlfYCsZ56wBy",
+            "group_name": "default",
+            "mca_call_id": "Cs2WCWArPHNsh4S0",
+            "parent_id": "CA6ph0frwlIJngHl",
+            "parent_source_entity": "account",
+            "parent_source_id": "Ch4NmlfYCsZ56wBx",
+            "parent_source_system": "adtrack",
+            "time_zone": "US/Eastern"
+          },
+          "recording_storage_ticket": "mca-Cs2WCWArPHNsh4S0",
+          "ring_cadence": "6000",
+          "ring_duration_ms": "22602",
+          "schema_version": "1.3",
+          "spam_canary": {
+            "recommendation": "UNKNOWN",
+            "result": {
+              "detail": {
+                "MCA honeypot/blacklist": {
+                  "expire": "2021-02-16T03:32:59Z",
+                  "reason": "",
+                  "recommendation": "UNKNOWN",
+                  "source": "Adtrack"
+                },
+                "Timebucket caller 20 in 1 hour": {
+                  "expire": "2021-02-16T03:30:59Z",
+                  "reason": "",
+                  "recommendation": "UNKNOWN",
+                  "source": "CQDCS"
+                },
+                "Timebucket caller 40 in 1 day": {
+                  "expire": "2021-02-16T03:30:59Z",
+                  "reason": "",
+                  "recommendation": "UNKNOWN",
+                  "source": "CQDCS"
+                },
+                "Timebucket caller exceptions": {
+                  "expire": "2021-02-16T03:30:59Z",
+                  "reason": "",
+                  "recommendation": "UNKNOWN",
+                  "source": "Canary"
+                }
+              },
+              "summary": {
+                "expire": "2021-02-16T03:32:59Z",
+                "reason": "Timebucket caller 20 in 1 hour, Timebucket caller 40 in 1 day, Timebucket caller exceptions, MCA honeypot/blacklist",
+                "recommendation": "UNKNOWN"
+              }
+            },
+            "service": "CANARY"
+          },
+          "spam_detect_busy": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+          "spam_detect_fax": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+          "spam_detect_noise": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+          "spam_detect_recording": { "recommendation": "NONE", "result": "Good", "service": "TRUFFLEHOUND" },
+          "start_time": "2021-02-16T03:30:59.199Z",
+          "status_detail": ["honeypot(block)", "rec", "afterhrs", "dial(1)", "!early_audio", "stoprec", "numlookup", "numfound"],
+          "x_hop_counter": "0"
+        },
+        "mca": { "call_status": "ANSWER", "is_good_call": true, "schema_version": "1" },
+        "notification_history": {
+          "call_end": {
+            "email": { "-178871650": { "attempts": { "2021-02-16T03:35:22.643Z": {} }, "success": "2021-02-16T03:35:22.643Z" } },
+            "http": {
+              "-1551873922": {
+                "attempts": { "2021-02-16T03:35:22.582Z": { "body": "\n\n\n\n\n", "status_code": "200" } },
+                "success": "2021-02-16T03:35:22.582Z"
+              }
+            }
+          },
+          "call_start": {
+            "email": {},
+            "http": {
+              "-540624609": {
+                "attempts": { "2021-02-16T03:31:01.863Z": { "body": "", "status_code": "200" } },
+                "success": "2021-02-16T03:31:01.863Z"
+              }
+            }
+          },
+          "version": "2"
+        },
+        "recording": { "processed": "1", "storage_ticket": "mca-Cs2WCWArPHNsh4S0" }
+      },
+      "product": "dropcamel",
+      "product_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a"
+    },
+    {
+      "feature_data": {
+        "MCA": { "api_host_and_port": "www.marchex.io:80" },
+        "recording": { "processed": "1", "product": "dropcamel", "product_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a" }
+      },
+      "product": "MCA",
+      "product_id": "Cs2WCWArPHNsh4S0"
+    }
+  ],
+  "legs": [
+    {
+      "from": { "product": "dropcamel", "product_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a" },
+      "sip_id": "335571941_98547671@206.147.76.5"
+    },
+    {
+      "from": { "product": "dropcamel", "product_id": "ace6e19e-8c2e-57a2-9228-d93ea52dc96a" },
+      "sip_id": "fa185aec-5473-48f1-8f94-6b43646fe13d"
+    }
+  ]
+}
